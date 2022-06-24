@@ -1,0 +1,63 @@
+
+body {
+   font-family: monaco;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; 
+margin: auto;
+
+
+border: 4mm ridge rgba(221, 11, 11, 0.6);
+height: 500px;
+
+  
+}
+#current-time {
+  font-size: 32px;
+  margin-bottom: 100px;
+}
+#current-time,
+.create-alarm,
+h1 {
+  text-align: center;
+  
+}
+.create-alarm,
+.alarm-inputs,
+#active-alarm {
+  margin-top: 20px;
+  display: inline;
+}
+input {
+  width: 100px;
+  height: 30px;
+}
+.alarm-inputs,
+#alarm-text {
+  margin-bottom: 30px;
+  display: inline;
+  
+}
+button {
+  font-size: 18px;
+}
+#active-alarm {
+  display:none;
+
+
+}
+.set-alarm-button{
+  background-color: green ;
+ height: 35px;
+
+}
+#clear-alarm{
+  background-color: red;
+}
+.zone{
+  height: 35px;
+  background-color:aqua;
+}
+
